@@ -352,7 +352,6 @@ swap1=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $2'})")
 swap2=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $4'})")
 swap3=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $3'})")
 clear
-echo -e "\033[1;37mSEU IP 👉 \033[38;5;82m$IP   
 echo -e "\033[1;37m╔════════════════════════════════════════════════════════════╗\033[0m"
 echo -e "\033[1;37m║ \E[5;34;47m                  NITY SSH-PLUS                   \E[0m \033[1;37m║"
 echo -e "\033[1;37m╠════════════════════╦═══════════════════╦═══════════════════╣\033[0m"
