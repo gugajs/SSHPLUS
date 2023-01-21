@@ -399,7 +399,7 @@ init_() { #? Collect needed information and set options before startig main loop
 	if [[ -n $curled && $update_check == "true" ]]; then
 		print -bg "#00" -fg "#30ff50" -r 1 -t "√"
 		print -m $(( (tty_height/2-3)+stx++ )) 0 -bg "#00" -fg "#cc" -c -b "Checking for updates..."
-		if ! get_value -v git_version -ss "$(curl -m 4 --raw -r 0-5000 https://raw.githubusercontent.com/gugajs/SSHPLUS/main/bashtop 2>/dev/null)" -k "version=" -r "[^0-9.]"; then unset git_version; fi
+		if ! get_value -v git_version -ss "$(curl -m 4 --raw -r 0-5000 https://raw.githubusercontent.com/aristocratos/bashtop/master/bashtop 2>/dev/null)" -k "version=" -r "[^0-9.]"; then unset git_version; fi
 	fi
 
 	#* Add update notification to banner if new version is available
@@ -4029,12 +4029,12 @@ options_() { #? Shows the options overlay
 			local -a theme_index
 			local git_theme new_themes=0 down_themes=0 new_theme
 			unset 'theme_index[@]' 'desc_color_theme[-1]' 'desc_color_theme[-1]' 'desc_color_theme[-1]' options_out
-			theme_index=($(curl -m 3 --raw https://raw.githubusercontent.com/gugajs/SSHPLUS/main/themes/index.txt 2>/dev/null))
+			theme_index=($(curl -m 3 --raw https://raw.githubusercontent.com/aristocratos/bashtop/master/themes/index.txt 2>/dev/null))
 			if [[ ${theme_index[*]} =~ .theme ]]; then
 				for git_theme in ${theme_index[@]}; do
 					unset new_theme
 					if [[ ! -e "${config_dir}/themes/${git_theme}" ]]; then new_theme=1; fi
-					if curl -m 3 --raw "https://raw.githubusercontent.com/gugajs/SSHPLUS/main/themes/${git_theme}" >"${config_dir}/themes/${git_theme}" 2>/dev/null; then
+					if curl -m 3 --raw "https://raw.githubusercontent.com/aristocratos/bashtop/master/themes/${git_theme}" >"${config_dir}/themes/${git_theme}" 2>/dev/null; then
 						((++down_themes))
 						if [[ -n $new_theme ]]; then
 							((++new_themes))
