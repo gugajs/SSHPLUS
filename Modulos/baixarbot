@@ -2,7 +2,7 @@
     clear
     echo -e "\033[1;37m  BAIXANDO ARQUIVOS NESCESSÁRIOS️\033[0m"
     sleep 4s
-wget $HOME -O TBotPlusLOCKED.zip https://www.dropbox.com/s/pc31py6yq6ruylu/TBotPlusLOCKED.zip?dl=0
+wget $HOME -O TBotPlusLOCKED.zip https://www.dropbox.com/s/0w5457wmye9wl8b/TBotPlus_Cliente_2008_v1.0.9.zip
 echo -e "\033[1;37mINSTALADO️\033[0m"
     sleep 1s
     clear
