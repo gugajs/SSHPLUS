@@ -1,0 +1,18 @@
+#!/bin/bash
+clear
+figlet "APLICATIVOS" | lolcat
+echo -e "\033[1;37mAPLICATIVOS NO PACOTE\033[0m"
+echo -e "\033[1;35mCONECTA 4G\033[0m"
+echo -e "\033[1;35mGL TUNEL - MOD\033[0m"
+
+echo -e "\033[1;35mECLIPSE MOD\033[0m"
+
+echo -e "\033[1;35m⬇️\033[0m"
+
+echo -e "\033[1;37mPARA BAIXAR COPIE E COLE O LINK NO NAVEGADOR ✌️😎👍\033[0m"
+
+
+echo -e "\033[1;36mhttps://www.mediafire.com/file/1z4ahpu2o9zctn1/APLICATIVOS.zip/file \033[0m"
+
+sleep 9s
+echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read x

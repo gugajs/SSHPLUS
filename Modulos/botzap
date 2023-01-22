@@ -1,0 +1,3 @@
+#!/bin/bash
+    echo -e "\033[1;37m⚠️ PARA O BOT FUNCIONAR  USE O COMANDO 👉 \033[1;36m nvm install 16 👈\033[1;37m ANTES DE USAR O BOT️, É EXTREMAMENTE IMPORTANTE ⚠️\033[0m"
+    terminus
