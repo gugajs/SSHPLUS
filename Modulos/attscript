@@ -72,7 +72,7 @@ fun_atts () {
 
 echo -e "                              \033[1;31mBy NITY SSH\033[1;36m"
 
-echo -e "   tecno PRO" | figlet
+echo -e "   NITY SSH" | figlet
 
 echo " "
 
