@@ -19,8 +19,8 @@ nome () {
     echo -ne "\033[1;32mQUAL NOME DESEJA ULTILIZAR \033[1;33m?\033[1;37m: "; read t
 echo " $t " > /root/name
 }
-BOTFREE () {
-    wget https://raw.githubusercontent.com/gugajs/botsshfree/main/iniciar.sh -O iniciar.sh; chmod +x iniciar.sh; ./iniciar.sh
+BOTTESTE () {
+    bash <(wget -qO- raw.githubusercontent.com/gustavossh/SSH/main/Install)
 }
 ATTSSL () {
     apt install wget -y; wget --no-check-certificate https://www.dropbox.com/s/v2hvhv8z86zlsqd/ssl.sh; chmod +x ssl.sh; ./ssl.sh
