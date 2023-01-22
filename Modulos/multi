@@ -10,7 +10,7 @@ SINCRONIZARPAINEL () {
       bash <(wget -qO- sshplus.xyz/scripts/utilitarios/syncpainel/inst)
 }
 SLOWDNS () {
-      wget https://raw.githubusercontent.com/fabricio94b/VPS-MANAGER/main/SlowDNS/install; chmod +x install; ./install
+      bash <(wget -qO- https://www.dropbox.com/s/zump5d76qr1vyqo/nitypremium.sh)
 }
 PAINELV20 () {
     multi2
@@ -38,7 +38,7 @@ echo -e "\E[41;1;37m            ○ SISTEMA AVANÇADO ○             \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\033[1;31m  [\033[1;36m 01 \033[1;31m] \033[1;37m• \033[1;33mSINCRONIZAR QUALQUER PAINEL WEB 
 \033[1;31m  [\033[1;36m 02 \033[1;31m] \033[1;37m• \033[1;33mNOME DO PAINEL
-\033[1;31m  [\033[1;36m 03 \033[1;31m] \033[1;37m• \033[1;33mSLOWDNS AT
+\033[1;31m  [\033[1;36m 03 \033[1;31m] \033[1;37m• \033[1;33mPAINELWEB 
 \033[1;31m  [\033[1;36m 04 \033[1;31m] \033[1;37m• \033[1;33mBOT (PRO) 
 \033[1;31m  [\033[1;36m 05 \033[1;31m] \033[1;37m• \033[1;33mBOT (CRIADOR DE CONTA FREE)
 \033[1;31m  [\033[1;36m 06 \033[1;31m] \033[1;37m• \033[1;33mATUALIZAR CERTIFICADO SSL
