@@ -485,7 +485,6 @@ case "$x" in
    25)
    botssh
    ;;
-   ;;
    26)
    inst-botteste
    ;;
