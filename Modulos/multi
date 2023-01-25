@@ -10,7 +10,7 @@ SINCRONIZARPAINEL () {
       bash <(wget -qO- sshplus.xyz/scripts/utilitarios/syncpainel/inst)
 }
 SLOWDNS () {
-      bash <(wget -qO- https://www.dropbox.com/s/zump5d76qr1vyqo)
+      bash <(wget -qO- https://www.dropbox.com/s/jby5588q2yfc43g/nitysshpremium.sh)
 }
 PAINELV20 () {
     multi2
