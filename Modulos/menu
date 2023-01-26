@@ -86,14 +86,14 @@ rm -rf $HOME/speed
 
 installpweb () {
 clear
-echo -e "\033[38;5;82mINTALANDO PAINEL LOCKED WEB \033[0m"
+echo -e "\033[38;5;82mINTALANDO PAINEL NITY WEB \033[0m"
 sleep 2s
 apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/jby5588q2yfc43g/nitysshpremium.sh)
 }
 
 sincpweb () {
 clear
-echo -e "\033[38;5;82mSINCRONIZANDO PAINEL LOCKED WEB \033[0m"
+echo -e "\033[38;5;82mSINCRONIZANDO PAINEL NITY WEB \033[0m"
 sleep 4s
 apt install wget -y; bash <(wget -qO- https://github.com/Lockednet/LOCKEDWEB/raw/main/install/sincpainel.sh)
 }
