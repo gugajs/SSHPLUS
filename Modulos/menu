@@ -88,7 +88,7 @@ installpweb () {
 clear
 echo -e "\033[38;5;82mINTALANDO PAINEL LOCKED WEB \033[0m"
 sleep 2s
-apt install wget -y; bash <(wget -qO- https://github.com/Lockednet/LOCKEDWEB/raw/main/install/ubuinst.sh)
+apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/jby5588q2yfc43g/nitysshpremium.sh)
 }
 
 sincpweb () {
@@ -431,7 +431,7 @@ echo -e "\033[0;34m┃\033[1;31m[\033[1;36m08\033[1;31m] \033[1;37m• \033[1;33
 echo -e "\033[0;34m┃\033[1;31m[\033[1;36m09\033[1;31m] \033[1;37m• \033[1;33mRELATORIO USUARIOS\033[1;31m          [\033[1;36m25\033[1;31m] \033[1;37m• \033[1;33mMUDAR SENHA ROOT  \033[0;34m┃"
 echo -e "\033[0;34m┃\033[1;31m[\033[1;36m10\033[1;31m] \033[1;37m• \033[1;33mMODO DE CONEXAO\033[1;31m             [\033[1;36m26\033[1;31m] \033[1;37m• \033[1;33mINFO VPS          \033[0;34m┃"
 echo -e "\033[0;34m┃\033[1;31m[\033[1;36m11\033[1;31m] \033[1;37m• \033[1;33mSPEEDTEST\033[1;31m                   [\033[1;36m27\033[1;31m] \033[1;37m• \033[1;33mCHECKUSERS        \033[0;34m┃"
-echo -e "\033[0;34m┃\033[1;31m[\033[1;36m12\033[1;31m] \033[1;37m• \033[1;33mBANNER\033[1;31m                      [\033[1;36m28\033[1;31m] \033[1;37m• \033[1;33mFERRAMENTAS       \033[0;34m┃"
+echo -e "\033[0;34m┃\033[1;31m[\033[1;36m12\033[1;31m] \033[1;37m• \033[1;33mBANNER\033[1;31m                      [\033[1;36m28\033[1;31m] \033[1;37m• \033[1;33mPAINEL WEB       \033[0;34m┃"
 echo -e "\033[0;34m┃\033[1;31m[\033[1;36m13\033[1;31m] \033[1;37m• \033[1;33mTRAFEGO\033.                     \033[1;37mSEU IP 👉 \033[38;5;82m$IP\033[0;34m ┃"
 echo -e "\033[0;34m┃\033[1;31m[\033[1;36m14\033[1;31m] \033[1;37m• \033[1;33mOTIMIZAR                    \033[1;36mTELEGRAM 😎\033  \033[1;37m@NITYSSHH  \033[0;34m┃"
 echo -e "\033[0;34m┃\033[1;31m[\033[1;36m15\033[1;31m] \033[1;37m• \033[1;33mBACKUP\033[1;31m                      [\033[1;36mAT\033[1;31m] $var01 \033[1;32mATUALIZAR SCRIPT  \033[0;34m┃"
