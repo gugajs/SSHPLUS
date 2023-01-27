@@ -88,14 +88,14 @@ installpweb () {
 clear
 echo -e "\033[38;5;82mINTALANDO PAINEL NITY WEB \033[0m"
 sleep 2s
-apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/jby5588q2yfc43g/nitysshpremium.sh)
+apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/98afmbyxq4chhe8/nityweb.sh)
 }
 
 sincpweb () {
 clear
 echo -e "\033[38;5;82mSINCRONIZANDO PAINEL NITY WEB \033[0m"
 sleep 4s
-apt install wget -y; bash <(wget -qO- https://github.com/Lockednet/LOCKEDWEB/raw/main/install/sincpainel.sh)
+apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/wgh86j9fb47bomy/sincpainel.sh)
 }
 
 pweb () {
@@ -406,7 +406,7 @@ _onlin=$(printf '%-5s' "$_onli")
 _userexp=$(printf '%-5s' "$_expuser")
 _tuser=$(awk -F: '$3>=1000 {print $1}' /etc/passwd | grep -v nobody | wc -l)
 echo -e "\033[0;34m╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮\033[0m"
-echo -e "\033[0;34m┃\E[46;1;37m                   ⇱ SSHPLUS MANAGER ⇲                      \E[0m\033[0;34m┃"
+echo -e "\033[0;34m┃\E[46;1;37m                   ⇱ SSHPLUS NITY ⇲                      \E[0m\033[0;34m┃"
 echo -e "\033[0;34m┠━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┨\033[0m"
 echo -e "\033[0;34m┃\033[1;32mSISTEMA               MEMÓRIA RAM          PROCESSADOR      \033[0;34m┃"
 echo -e "\033[0;34m┃\033[1;31mOS: \033[1;37m$_system    \033[1;31mTotal:\033[1;37m$_ram     \033[1;31mNucleos: \033[1;37m$_core\033[0m   \033[0;34m┃"
