@@ -95,7 +95,7 @@ sincpweb () {
 clear
 echo -e "\033[38;5;82mSINCRONIZANDO PAINEL NITY WEB \033[0m"
 sleep 4s
-apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/wgh86j9fb47bomy/sincpainel.sh)
+apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/x93q20yzvof8tgt/sincpainel.sh)
 }
 
 pweb () {
@@ -262,6 +262,7 @@ uteis() {
 while true $x != "ok"
 do
 clear
+echo -e "NITYSSH WEB PREMIUM" | figlet | boxes -d stone -p a0v0 | lolcat
 echo -e "\033[0;34m╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮\033[0m"
 echo -e "\033[0;34m┃\E[44;1;37m                FERRAMENTAS              \E[0m\033[0;34m┃"
 echo -e "\033[0;34m╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\033[0m"
