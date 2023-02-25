@@ -99,21 +99,21 @@ echo -e "\n\033[1;36mVERIFICANDO LINK... \033[0m" ; rm $_Ink/listARM >/dev/null 
     sleep 3s
     echo "/bin/menu" >/bin/h && chmod +x /bin/h >/dev/null 2>&1
     rm versao* >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/RecProjects/SSHPLUS/main/Install/versao >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/gugajs/SSHPLUS/main/Install/versao >/dev/null 2>&1
     rm v2raymanager >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/RecProjects/SSHPLUS/main/Modulos/v2raymanager >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/RecProjects/SSHPLUS/main/Modulos/botteste.sh >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/gugajs/SSHPLUS/main/Modulos/v2raymanager >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/gugajs/SSHPLUS/main/Modulos/botteste.sh >/dev/null 2>&1
     chmod 777 v2raymanager >/dev/null 2>&1
     chmod 777 botteste.sh >/dev/null 2>&1
     mkdir $HOME/BOT >/dev/null 2>&1
     cd $HOME/BOT
-    wget https://raw.githubusercontent.com/RecProjects/SSHPLUS/main/Modulos/ShellBot.sh >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/gugajs/SSHPLUS/main/Modulos/ShellBot.sh >/dev/null 2>&1
     chmod 777 ShellBot.sh >/dev/null 2>&1
     cd >/dev/null 2>&1
     chmod 777 licence >/dev/null 2>&1
     mkdir /etc/rec >/dev/null 2>&1
     cd /etc/rec
-    wget https://raw.githubusercontent.com/RecProjects/SSHPLUS/main/Modulos/licence >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/gugajs/SSHPLUS/main/Modulos/licence >/dev/null 2>&1
     chmod 777 licence >/dev/null 2>&1
     cd >/dev/null 2>&1
     #-----------------------------------------------------------------------------------------------------------------
@@ -212,7 +212,7 @@ echo -e "\n\033[1;36mVERIFICANDO LINK... \033[0m" ; rm $_Ink/listARM >/dev/null 
     echo 'echo -e " SERVIDOR LIGADO À : $(uptime -p)"' >>/root/.bashrc
     echo 'echo -e " DATA : $DATE"' >>/root/.bashrc
     echo 'echo -e " HORA : $TIME"' >>/root/.bashrc
-    echo 'echo -e "@RECPROJECTS"' >>.bashrc
+    echo 'echo -e "@gugajs"' >>.bashrc
     echo 'echo -e "\033[1;31m DIGITE ( menu ) PARA ENTRAR\033[0m."' >>/root/.bashrc
     echo 'echo -e ""' >>/root/.bashrc
     date=$(date '+%Y-%m-%d <> %H:%M:%S')
@@ -220,5 +220,5 @@ echo -e "\n\033[1;36mVERIFICANDO LINK... \033[0m" ; rm $_Ink/listARM >/dev/null 
     figlet "SSH-PLUS" | lolcat
     echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                INSTALACAO CONCLUIDA               \033[1;33m \033[0m\033[01;31m║"
     echo -e "\033[01;31m║\033[1;33mPARA INICIAR DIGITE: \033[1;32mmenu\033[0m"
-    echo -e "\033[01;31m║\033[1;33m MAIS INFORMACOES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@RECPROJECTS\033[0m"
+    echo -e "\033[01;31m║\033[1;33m MAIS INFORMACOES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@jsinfinity\033[0m"
     rm $HOME/Plus && cat /dev/null > ~/.bash_history && history -c
